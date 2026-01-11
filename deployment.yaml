@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-cicd
-          image: vinhpn12/hello-cicd:f9ecf3c
+          image: vinhpn12/hello-cicd
           ports:
             - containerPort: 3000
