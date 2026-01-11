@@ -7,4 +7,4 @@ resources:
 
 images:
 - name: vinhpn12/hello-cicd
-  newTag: 8890ea0
+  newTag: 22fb8bb
