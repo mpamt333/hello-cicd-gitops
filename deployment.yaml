@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-cicd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-cicd
+  template:
+    metadata:
+      labels:
+        app: hello-cicd
+    spec:
+      containers:
+        - name: hello-cicd
+          image: vinhpn12/hello-cicd:f9ecf3c
+          ports:
+            - containerPort: 3000
